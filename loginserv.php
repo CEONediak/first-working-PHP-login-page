@@ -2,7 +2,7 @@
   $mail=$_POST['email'];
   $pwd=$_POST['pwd'];
 
-    $conn=mysqli_connect('localhost','root','s1h2ubh1','tutorial');
+    $conn=mysqli_connect('localhost','root','','tutorial');
     if(!conn)
       echo mysqli_connect_error();
     else
